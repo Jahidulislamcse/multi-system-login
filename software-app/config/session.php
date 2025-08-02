@@ -157,6 +157,8 @@ return [
     */
 
     'domain' => env('SESSION_DOMAIN', null),
+    'path' => env('SESSION_PATH', '/'),
+    'secure' => false,
 
     /*
     |--------------------------------------------------------------------------
